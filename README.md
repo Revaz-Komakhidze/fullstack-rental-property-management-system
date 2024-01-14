@@ -1,4 +1,4 @@
-## Next.js Rental Property Management System**
+## Next.js Rental Property Management System
 
 Description:
 
