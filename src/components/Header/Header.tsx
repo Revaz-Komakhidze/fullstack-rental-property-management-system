@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FaUserCircle } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -7,6 +8,11 @@ const Header = () => {
         <Link href="/" className="font-black text-[#F27405]">
           MyHome
         </Link>
+        <ul className="flex items-center ml-5">
+          <Link href="/auth">
+            <FaUserCircle className="cursor-pointer" />
+          </Link>
+        </ul>
       </div>
       <ul></ul>
     </header>
